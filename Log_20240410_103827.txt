@@ -15137,3 +15137,65 @@
 [3] 13:45:52:  Save finished!
 [4] 13:45:52:  ShowStatusInfo: 'Saved successfully'
 [4] 13:45:52:  ShowStatusInfo: 'Ready'
+[4] 13:51:13:  ShowStatusInfo: '1 object selected'
+[4] 13:51:13:  ShowStatusInfo: 'Ready'
+[3] 13:51:19: Task 'Export Subset' started on ''
+[4] 13:51:19:  ShowStatusInfo: 'Export Subset'
+[4] 13:51:24:  ShowStatusInfo: 'Ready'
+[4] 13:51:24:  ShowStatusInfo: 'Export Subset finished'
+[3] 13:51:24: Task 'Export Subset' finished
+[4] 13:51:28:  ShowStatusInfo: '1 object selected'
+[4] 13:51:28:  ShowStatusInfo: 'Ready'
+[3] 13:51:30: Task 'Export Subset' started on ''
+[4] 13:51:30:  ShowStatusInfo: 'Export Subset'
+[4] 13:51:32:  ShowStatusInfo: 'Ready'
+[4] 13:51:32:  ShowStatusInfo: 'Refresh navigation view 'TestCases''
+[4] 13:51:32:  ShowStatusInfo: 'Refresh navigation view 'Requirements''
+[4] 13:51:32:  ShowStatusInfo: 'Refresh navigation view 'TestCaseDesign''
+[4] 13:51:32:  ShowStatusInfo: 'Refresh navigation view 'Execution''
+[4] 13:51:32:  ShowStatusInfo: 'Refresh navigation view 'Issues''
+[4] 13:51:32:  ShowStatusInfo: 'Refresh navigation view 'Configurations''
+[4] 13:51:32:  ShowStatusInfo: 'Refresh navigation view 'TestPlanning''
+[4] 13:51:32:  ShowStatusInfo: 'Refresh navigation view 'Modules''
+[4] 13:51:32:  ShowStatusInfo: 'Refresh navigation view 'Qnit''
+[4] 13:51:32:  ShowStatusInfo: 'Ready'
+[4] 13:51:32:  ShowStatusInfo: 'Refresh navigation view 'ScratchBook''
+[4] 13:51:32:  ShowStatusInfo: 'Ready'
+[4] 13:51:32:  ShowStatusInfo: 'Refresh detail view 'TestCases''
+[4] 13:51:32:  ShowStatusInfo: 'Refresh detail view 'Requirements''
+[4] 13:51:32:  ShowStatusInfo: 'Refresh detail view 'TestCaseDesign''
+[4] 13:51:32:  ShowStatusInfo: 'Refresh detail view 'Execution''
+[4] 13:51:32:  ShowStatusInfo: 'Refresh detail view 'Issues''
+[4] 13:51:32:  ShowStatusInfo: 'Refresh detail view 'Configurations''
+[4] 13:51:32:  ShowStatusInfo: 'Refresh detail view 'TestPlanning''
+[4] 13:51:32:  ShowStatusInfo: 'Refresh detail view 'Modules''
+[4] 13:51:32:  ShowStatusInfo: 'Refresh detail view 'Qnit''
+[4] 13:51:32:  ShowStatusInfo: 'Ready'
+[4] 13:51:32:  ShowStatusInfo: 'Refresh detail view 'ScratchBook''
+[4] 13:51:32:  ShowStatusInfo: 'Ready'
+[4] 13:51:32:  ShowStatusInfo: 'Refresh  'WindowLabels''
+[4] 13:51:33:  ShowStatusInfo: 'Refresh all finished'
+[4] 13:51:33:  ShowStatusInfo: 'Ready'
+[3] 13:51:33: Task 'Export Subset' finished
+[2] 20:43:54: Error on CloseWorkspace:
+System.UnauthorizedAccessException: Access to the path 'C:\Users\NiebuhrDominik\AppData\Roaming\TRICENTIS\IdentityManagement\' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.Directory.InternalCreateDirectory(String fullPath, String path, Object dirSecurityObj, Boolean checkHost)
+   at System.IO.Directory.InternalCreateDirectoryHelper(String path, Boolean checkHost)
+   at Tricentis.TCCore.Persistency.Services.ManagedAuthentication.UserTokenCache.get_DefaultTokenDirectory()
+   at Tricentis.TCCore.Persistency.Services.ManagedAuthentication.UserTokenCache.get_TokenPath()
+   at Tricentis.TCCore.Persistency.Services.ManagedAuthentication.UserTokenCache.DeleteUserCache()
+   at Tricentis.TCCore.Persistency.Services.ManagedAuthentication.UserTokenCache.GetFromFile()
+   at Tricentis.TCCore.Persistency.Services.ManagedAuthentication.AuthenticationHandler.IsUserAuthenticated()
+   at Tricentis.TCAddIns.CloudDistributedExecutionAddIn.CloudDistributedExecutionAddIn.OnCloseWorkspace()
+[2] 20:43:54: Error on CloseWorkspace:
+System.UnauthorizedAccessException: Access to the path 'C:\Users\NiebuhrDominik\AppData\Roaming\TRICENTIS\IdentityManagement\' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.Directory.InternalCreateDirectory(String fullPath, String path, Object dirSecurityObj, Boolean checkHost)
+   at System.IO.Directory.InternalCreateDirectoryHelper(String path, Boolean checkHost)
+   at Tricentis.TCCore.Persistency.Services.ManagedAuthentication.UserTokenCache.get_DefaultTokenDirectory()
+   at Tricentis.TCCore.Persistency.Services.ManagedAuthentication.UserTokenCache.get_TokenPath()
+   at Tricentis.TCCore.Persistency.Services.ManagedAuthentication.UserTokenCache.DeleteUserCache()
+   at Tricentis.TCCore.Persistency.Services.ManagedAuthentication.UserTokenCache.GetFromFile()
+   at Tricentis.TCCore.Persistency.Services.ManagedAuthentication.AuthenticationHandler.IsUserAuthenticated()
+   at Tricentis.TCAddIns.ElasticExecutionGridAddIn.ElasticExecutionGridAddIn.OnCloseWorkspace()
